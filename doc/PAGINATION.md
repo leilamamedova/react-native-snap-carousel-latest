@@ -50,7 +50,7 @@ Basically, this is a tradeoff between color transition and optimal smoothness. W
 Since `<Pagination />` is, purposely, a separated component, you need to connect it to your `<Carousel />` component manually. This is pretty straightforward, but here is an example to get you started.
 
 ```javascript
-import Carousel, { Pagination } from 'react-native-snap-carousel';
+import Carousel, { Pagination } from 'react-native-snap-carousel-latest';
 
 export default class MyCarousel extends Component {
 

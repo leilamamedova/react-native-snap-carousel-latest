@@ -25,7 +25,7 @@ The first thing you need to do is to **set `hasParallaxImages` to `true` for you
 Here is an example that shows how to connect images to your carousel (note the `parallaxProps` argument).
 
 ```javascript
-import Carousel, { ParallaxImage } from 'react-native-snap-carousel';
+import Carousel, { ParallaxImage } from 'react-native-snap-carousel-latest';
 import { Dimensions, StyleSheet } from 'react-native';
 
 const { width: screenWidth } = Dimensions.get('window')
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
 
 ```javascript
 import React, {useRef, useState, useEffect} from 'react';
-import Carousel, {ParallaxImage} from 'react-native-snap-carousel';
+import Carousel, {ParallaxImage} from 'react-native-snap-carousel-latest';
 import {
   View,
   Text,

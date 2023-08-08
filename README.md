@@ -11,6 +11,13 @@
 -----
 -----
 
+## 🛑 Error fixed!
+
+### 💡ViewPropTypes error already fixed.
+
+-----
+-----
+
 ## ✨ Some great news for you, fellow plugin user!
 
 ### 💡 **[Head over there now](https://github.com/meliorence/react-native-snap-carousel/blob/master/doc/VERSION_4.md)** to learn more about all the goodness that's coming your way.
@@ -74,7 +81,7 @@ We're not abandoning the ship, but we need more people to help us keep it alive 
 ## Usage
 
 ```bash
-$ npm install --save react-native-snap-carousel
+$ npm install --save react-native-snap-carousel-latest
 ```
 
 If you're using Typescript you should also install type definitions:
@@ -84,7 +91,7 @@ $ npm install --save @types/react-native-snap-carousel
 
 
 ```javascript
-import Carousel from 'react-native-snap-carousel';
+import Carousel from 'react-native-snap-carousel-latest';
 
 export class MyCarousel extends Component {
 

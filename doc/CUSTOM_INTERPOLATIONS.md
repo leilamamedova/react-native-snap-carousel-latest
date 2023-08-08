@@ -123,7 +123,7 @@ First things first: for which items do we need to create a custom animation?
 With this clarified, declaring the scroll interpolator is as simple as :
 
 ```javascript
-import { getInputRangeFromIndexes } from 'react-native-snap-carousel';
+import { getInputRangeFromIndexes } from 'react-native-snap-carousel-latest';
 
 function scrollInterpolator (index, carouselProps) {
     const range = [3, 2, 1, 0, -1]; // <- Remember that this has to be declared in a reverse order
@@ -194,7 +194,7 @@ Let's put it all together:
 
 ```javascript
 import React, { PureComponent } from 'react';
-import Carousel, { getInputRangeFromIndexes } from 'react-native-snap-carousel';
+import Carousel, { getInputRangeFromIndexes } from 'react-native-snap-carousel-latest';
 
 export default class MyCustomCarousel extends PureComponent {
 
